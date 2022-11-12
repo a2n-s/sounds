@@ -1,17 +1,17 @@
 * sounds
-A collection of sounds used daily in my ArchLinux config.
+A collection of sounds for goats.
 
 ** Installation
 *** on ArchLinux
-one can use [[https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-sounds-git/PKGBUILD][my custom PKGBUILD]] as follows:
+one can use [[https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-sounds-git/PKGBUILD][the PKGBUILD for goats]] as follows:
 #+begin_src bash
-git clone https://github.com/amtoine/pkgbuilds
+git clone https://github.com/goatfiles/pkgbuilds
 cd ./pkgbuilds
-./install.sh x86_64/amtoine-sounds-git
+./install.sh x86_64/goat-sounds-git
 #+end_src
 *** on another distribution of Linux
 /Makefile and instructions *coming soon*/
 ** Usage
-The sounds are installed by default in ~/usr/share/sounds/amtoine-sounds-git/~.
+The sounds are installed by default in ~/usr/share/sounds/goat-sounds-git/~.
 
-Try to play one of them with ~mpt --no-video /usr/share/sounds/amtoine-sounds-git/{sound}~ for instance!
+Try to play one of them with ~mpt --no-video /usr/share/sounds/goat-sounds-git/{sound}~ for instance!
